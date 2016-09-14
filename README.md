@@ -69,9 +69,8 @@ Once the image is provisioned, ssh into the machine via:
 vagrant ssh
 ```
 
-Once in the virtual machine, run:
+Once in the virtual machine, use Jekyll Serve with the following line.  Include `-H 0.0.0.0` so the host machine can access the site.
 
 ```
-cd geonode-summit-2016.git
-jekyll serve
+jekyll serve -H 0.0.0.0
 ```
