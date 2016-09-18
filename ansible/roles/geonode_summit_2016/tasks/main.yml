@@ -37,6 +37,7 @@
   with_items:
     - gem install jekyll
     - gem install redcarpet
+    - gem install kramdown
   environment:
     RUBY_VERSION: "ruby-2.0.0-p353"
     MY_RUBY_HOME: "/usr/local/rvm/rubies/ruby-2.0.0-p353"
